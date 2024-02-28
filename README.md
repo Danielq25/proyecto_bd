@@ -23,3 +23,19 @@ npm run build
 # Run service
 npm start
 ```
+
+
+### Endpoints
+
+```
+GET:  /users
+POST: /users
+GET:  /boards
+POST: /boards
+GET:  /boards/:boardId/lists
+POST: /lists
+POST: /cards
+GET:  /cards
+POST: /cards/:cardId/assign-user
+GET:  /cards/:cardId
+```
